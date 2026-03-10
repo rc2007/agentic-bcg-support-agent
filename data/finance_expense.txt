@@ -1,0 +1,17 @@
+Title: Expense Reimbursement Policy
+
+Employees can claim reimbursement for business-related expenses.
+
+Eligible Expenses:
+- Travel expenses
+- Client meals
+- Conference registration fees
+- Office supplies
+
+Reimbursement Process:
+1. Upload receipts to the expense portal
+2. Submit expense form
+3. Manager approval required
+4. Finance team reviews request
+
+Reimbursements are typically processed within 7 business days.

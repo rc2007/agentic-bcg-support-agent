@@ -1,0 +1,22 @@
+Title: Laptop Troubleshooting Guide
+
+Employees experiencing laptop issues should follow these steps before contacting IT.
+
+Common Laptop Issues:
+
+Laptop Not Turning On
+- Check if the charger is connected
+- Hold the power button for 10 seconds
+- Try a different power outlet
+
+WiFi Not Working
+- Restart the laptop
+- Turn WiFi off and on
+- Ensure airplane mode is disabled
+
+Application Crashes
+- Restart the application
+- Restart the system
+- Check for software updates
+
+If the issue persists, contact the IT support team.

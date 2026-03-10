@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 fastapi
 uvicorn
 langchain
@@ -8,4 +9,16 @@ chromadb
 streamlit
 python-dotenv
 pydantic
+=======
+fastapi
+uvicorn
+langchain
+langgraph
+langchain-openai
+langchain-community
+chromadb
+streamlit
+python-dotenv
+pydantic
+>>>>>>> 98219ac (First commit to push complete code)
 langgraph

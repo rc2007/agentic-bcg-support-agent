@@ -1,0 +1,22 @@
+Title: VPN Troubleshooting Guide
+
+Employees must connect to the corporate VPN when accessing internal resources remotely.
+
+Common VPN Issues:
+
+1. VPN Not Connecting
+- Ensure internet connection is active
+- Restart the VPN client
+- Check username and password
+- Update the VPN client to the latest version
+
+2. Authentication Failed
+- Verify corporate credentials
+- Reset password through the IT portal if necessary
+
+3. Slow VPN Connection
+- Disconnect and reconnect VPN
+- Switch to a stable network
+- Avoid public WiFi if possible
+
+If the problem continues, employees should contact the IT Service Desk or raise a support ticket.
