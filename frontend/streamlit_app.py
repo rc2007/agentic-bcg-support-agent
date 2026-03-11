@@ -8,7 +8,7 @@ query = st.text_input("Ask your question")
 if st.button("Submit"):
 
     response = requests.post(
-        "http://127.0.0.1:8000/ask",
+        "https://agentic-bcg-support-agent-1.onrender.com/ask",
         json={"query": query}
     )
 
