@@ -1,7 +1,6 @@
 import os
 from dotenv import load_dotenv
 
-# For LangChain 1.2.10
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -62,3 +61,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
