@@ -1,12 +1,11 @@
 import os
 from dotenv import load_dotenv
-
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
 
-from backend.config import Config  # must define VECTOR_DB_PATH and EMBEDDING_MODEL
+from backend.config import Config
 
 load_dotenv()
 DATA_PATH = "data"  # folder with .txt files
@@ -45,20 +44,26 @@ def create_vector_store(chunks):
 def main():
     print("Loading documents...")
     documents = load_documents()
+    
     print(f"Loaded {len(documents)} documents")
-
+    
     print("Splitting documents into chunks...")
+    
     chunks = chunk_documents(documents)
+    
     print(f"Created {len(chunks)} chunks")
 
     print("Creating vector store...")
+    
     create_vector_store(chunks)
+    
     print("Vector store created successfully!")
 
-    print("\nSample chunk:\n")
-    print(chunks[0].page_content)
+    # print("\nSample chunk:\n")
+    # print(chunks[0].page_content)
 
 
 if __name__ == "__main__":
     main()
+
 
