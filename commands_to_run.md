@@ -1,4 +1,5 @@
 Command to ingest:
+
 python ingest.py
 
 FOR LOCAL SETUP:
@@ -8,3 +9,4 @@ uvicorn backend.main:app --reload
 
 Start UI
 streamlit run frontend/streamlit_app.py
+
